@@ -3,7 +3,7 @@
 #include<math.h>
 using namespace std;
 #define UNASSIGNED -1  
-#define N 9
+
 
 // SUDOKU
 
@@ -91,7 +91,7 @@ pair<int,int> findZ()
 {
      for(int i=0;i<9;i++)
      {
-          for(int j=0;j<N;j++)
+          for(int j=0;j<9;j++)
           {
                if(board[i][j]==-1)
                {
